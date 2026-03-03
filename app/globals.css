@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
+  --background: #010308;
   --foreground: #ffffff;
 }
 
@@ -11,4 +11,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+@keyframes grid-morph {
+
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(1.5) rotate(45deg);
+  }
+}
+
+.animate-grid-morph {
+  animation: grid-morph 120s ease-in-out infinite;
+  transform-origin: center center;
 }
