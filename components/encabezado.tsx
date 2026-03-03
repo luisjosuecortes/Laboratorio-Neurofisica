@@ -23,17 +23,17 @@ export function Encabezado() {
                     </Link>
 
                     {/* Navegación Derecha (Elegante y Sutil) */}
-                    <nav className="flex items-center gap-4 md:gap-8">
+                    <nav className="flex items-center gap-3 sm:gap-4 md:gap-8">
                         <Link
                             href="#integrantes"
-                            className="text-xs md:text-sm font-medium tracking-wide text-white/50 hover:text-white/100 transition-colors duration-300 relative group"
+                            className="text-[10px] sm:text-xs md:text-sm font-medium tracking-wide text-white/50 hover:text-white/100 transition-colors duration-300 relative group"
                         >
                             Integrantes
                             <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-blue-500/50 group-hover:w-full transition-all duration-300"></span>
                         </Link>
                         <Link
                             href="#publicaciones"
-                            className="text-xs md:text-sm font-medium tracking-wide text-white/50 hover:text-white/100 transition-colors duration-300 relative group"
+                            className="text-[10px] sm:text-xs md:text-sm font-medium tracking-wide text-white/50 hover:text-white/100 transition-colors duration-300 relative group"
                         >
                             Publicaciones
                             <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-indigo-500/50 group-hover:w-full transition-all duration-300"></span>
